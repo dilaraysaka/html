@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+	<title>İnönü Üniversitesi Kampüs Haritası</title>
+</head>
+<body>
+	<h1>İnönü Üniversitesi Kampüs Haritası</h1>
+	<img src="kampus-haritasi.png" alt="Kampüs Haritası" usemap="#kampus-haritasi">
+	<map name="kampus-haritasi">
+		<!-- İktisadi ve İdari Bilimler Fakültesi -->
+		<area shape="rect" coords="229,230,360,370" href="https://www.inonu.edu.tr/iibf" alt="İktisadi ve İdari Bilimler Fakültesi">
+                <!-- Yabancı Dil Fakültesi -->
+                <area shape="rect" coords="939,492,1038,541" href="https://www.inonu.edu.tr/ydyo" alt="Yabancı Dil Fakültesi">
+                <!-- Eğitim Fakültesi -->
+                <area shape="rect" coords="40,212,162,259" href="https://www.inonu.edu.tr/egitim" alt="Eğitim Fakültesi A Blok">
+                <area shape="rect" coords="339,500,471,561" href="https://www.inonu.edu.tr/egitim" alt="Eğitim Fakültesi B Blok">
+                <area shape="rect" coords="465,238,712,389" href="https://www.inonu.edu.tr/egitim" alt="Eğitim Fakültesi C Blok">
+                <!-- İletişim Fakültesi -->
+                <area shape="rect" coords="750,670,857,776" href="https://www.inonu.edu.tr/iletisim.fakultesi" alt="İletişim Fakültesi">
+                <!-- Öğrenci İşleri Daire Başkanlığı -->
+                <area shape="poly" coords="481,718,409,817,270,840" href="https://www.inonu.edu.tr/ogrencidb" alt="Öğrenci İşleri Daire Başkanlığı">
+                <!-- Mühendislik Fakültesi  -->
+                <area shape="rect" coords="1165,503,1361,867" href="https://www.inonu.edu.tr/muhendislik" alt="Mühendislik Fakültesi">
+                <!-- Hukuk Fakültesi -->
+                <area shape="rect" coords="337,72,593,171" href="https://www.inonu.edu.tr/hukuk" alt="Hukuk Fakültesi"> 
+                <!-- Spor Bilimleri Fakültesi -->
+                <area shape="rect" coords="1059,93,1222,280" href="https://www.inonu.edu.tr/sporbilimleri" alt="Spor Bilimleri Fakültesi">         
+	</map>
+</body>
+</html>
